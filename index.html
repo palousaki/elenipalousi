@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Eleni Palousi – Software Engineer</title>
+    <style>
+      :root {
+        --bg: #ffffff;
+        --text: #1f2937;
+        --muted: #6b7280;
+        --accent: #2563eb;
+        --border: #e5e7eb;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+          sans-serif;
+        background: var(--bg);
+        color: var(--text);
+        line-height: 1.6;
+      }
+
+      .container {
+        max-width: 900px;
+        margin: 0 auto;
+        padding: 3rem 1.5rem;
+      }
+
+      header {
+        border-bottom: 2px solid var(--border);
+        padding-bottom: 1.5rem;
+        margin-bottom: 2rem;
+      }
+
+      header h1 {
+        margin: 0;
+        font-size: 2.2rem;
+      }
+      header p {
+        margin: 0.2rem 0;
+        color: var(--muted);
+      }
+
+      .links a {
+        margin-right: 1rem;
+        color: var(--accent);
+        text-decoration: none;
+        font-weight: 500;
+      }
+
+      section {
+        margin-bottom: 2.5rem;
+      }
+
+      section h2 {
+        font-size: 1.3rem;
+        border-bottom: 1px solid var(--border);
+        padding-bottom: 0.3rem;
+        margin-bottom: 1rem;
+      }
+
+      .item {
+        margin-bottom: 1.5rem;
+      }
+      .item h3 {
+        margin: 0;
+        font-size: 1.05rem;
+      }
+      .item span {
+        font-size: 0.9rem;
+        color: var(--muted);
+      }
+
+      ul {
+        padding-left: 1.2rem;
+        margin-top: 0.5rem;
+      }
+
+      .skills {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+        gap: 0.4rem 1rem;
+      }
+
+      footer {
+        border-top: 1px solid var(--border);
+        padding-top: 1rem;
+        color: var(--muted);
+        font-size: 0.85rem;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <main class="container">
+      <header>
+        <h1>Eleni Palousi</h1>
+        <p>Software Engineer</p>
+        <p>Komotini, Greece · elenipalou@gmail.com</p>
+        <div class="links">
+          <a href="https://github.com/palousaki" target="_blank">GitHub</a>
+          <a href="https://www.linkedin.com/in/elenipalousi" target="_blank"
+            >LinkedIn</a
+          >
+        </div>
+      </header>
+
+      <section>
+        <h2>Profile</h2>
+        <p>
+          Dynamic Software Engineer with a strong team-oriented mindset and a
+          relentless pursuit of excellence in software development. Proficient
+          in Python programming with a keen interest in learning new
+          technologies. Strong engineering background enabling efficient
+          problem-solving in complex systems.
+        </p>
+      </section>
+
+      <section>
+        <h2>Experience</h2>
+        <div class="item">
+          <h3>Software Engineer – Catalink Ltd</h3>
+          <span>Jan 2024 – Present</span>
+          <ul>
+            <li>
+              Frontend development using React.js, Next.js and Tailwind CSS
+            </li>
+            <li>Backend development with FastAPI and Python</li>
+            <li>DevOps workflows using Docker, GitLab CI/CD, and Nginx</li>
+            <li>Mobile development with React Native</li>
+          </ul>
+        </div>
+
+        <div class="item">
+          <h3>Software QA Engineer – Code Seed</h3>
+          <span>Feb 2019 – Dec 2023</span>
+          <ul>
+            <li>
+              Automation testing using Robot Framework, Selenium, and Appium
+            </li>
+            <li>
+              Manual testing for web and mobile applications (iOS & Android)
+            </li>
+            <li>
+              Regression testing, bug reporting, and Jira ticket management
+            </li>
+            <li>Collaboration with developers and Product Owners</li>
+            <li>Training new team members and interim team leadership</li>
+          </ul>
+        </div>
+
+        <div class="item">
+          <h3>E-shop Assistant – Azouro</h3>
+          <span>Feb 2018 – Apr 2018</span>
+          <ul>
+            <li>Managed Shopify e-shop operations</li>
+            <li>Handled online promotions and social media presence</li>
+          </ul>
+        </div>
+      </section>
+
+      <section>
+        <h2>Skills</h2>
+        <div class="skills">
+          <span>Python / FastAPI</span>
+          <span>React / React Native</span>
+          <span>Next.js</span>
+          <span>Tailwind CSS</span>
+          <span>Robot Framework</span>
+          <span>Selenium & Appium</span>
+          <span>SQL</span>
+          <span>Docker</span>
+          <span>Git / GitLab CI-CD</span>
+          <span>Jenkins</span>
+          <span>Jira / Confluence</span>
+          <span>Postman</span>
+        </div>
+      </section>
+
+      <section>
+        <h2>Education</h2>
+        <div class="item">
+          <h3>M.Eng. Electrical & Computer Engineering</h3>
+          <span>Democritus University of Thrace · 2010 – 2017</span>
+          <p>
+            Specialization in Electronic and Computer Engineering.<br />
+            Master Thesis: Mobile Android application for health profile
+            management using personal data.
+          </p>
+        </div>
+
+        <div class="item">
+          <h3>Regeneration Academy of Java4Web</h3>
+          <span>Code.Hub · Oct 2018 – Dec 2018</span>
+          <p>
+            Training in Databases, Java, Software Engineering, Web & Enterprise
+            Development. Technologies: Java, Spring, MySQL, REST APIs,
+            Hibernate, Node.js.
+          </p>
+        </div>
+      </section>
+
+      <section>
+        <h2>Languages</h2>
+        <ul>
+          <li>Greek – Native</li>
+          <li>English – Fluent</li>
+          <li>Spanish – Beginner</li>
+        </ul>
+      </section>
+
+      <footer>Last updated: 2025</footer>
+    </main>
+  </body>
+</html>
